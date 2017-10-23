@@ -1,0 +1,90 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	font-family:"微软雅黑";
+	font-weight:normal;
+	font-style:normal;
+	font-size: 12px;
+	list-style-type:none;}
+
+body {
+  padding: 15px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+.box{
+	width: 100%;
+	overflow: hidden;
+}
+.box ul{
+	float: right;
+
+}
+.box ul li{
+	float: left;
+	margin-right: 30px;
+}
+.box ul li a:link{
+  color: black;
+  text-decoration: underline;
+}
+.box ul li a:hover{
+	color: blue;
+}
+
+
+.tu{
+	width: 270px;
+	height: 129px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+.tu img{
+	width: 270px;
+	height: 129px;
+	display: block;
+}
+.box2{
+	width: 100%;
+	overflow: hidden;
+}
+input{
+	width: 500px;
+	height: 32px;
+	outline: none;
+	margin-left: 400px;
+}
+button{
+	width: 100px;
+	height: 36px;
+	background: blue;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+}
+.tu2{
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	padding-top: 200px;
+	padding-bottom: 40px;
+	margin: 0 auto;
+	text-align: center;
+	color: #666;
+}
+.tu2 img{
+	width: 60px;
+	height: 60px;
+}
+p{
+	text-align: center;
+	margin-bottom: 15px;
+}
+p a:link{
+  color: #999;
+  margin-left: 15px;
+  text-decoration: underline;
+}
